@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  background: #000;
+  border: 10px solid #b9e9f7;   
+}
+
+ img {
+  max-width:100%;
+}
+
+ul {
+  list-style:none;
+}
+
+a {
+  text-decoration:none;
+  color:#F7CBCC;
+}
+
+a:active {
+  color:#F7CBCC;
+}
+
+a:hover {
+  color: #b9e9f7;
+}
+/*****************************
+Base Styles
+*****************************/
+.container {
+  min-height:100vh;
+}
+.logo {
+  width: 15em;
+}
+
+.main-nav {
+  font-family:'Bowlby One SC', cursive, helvetica, arial, san-serif;
+}
+
+.main-nav a {
+  display: block;
+  padding:10px 15px;
+  text-align:center;
+}
+
+.image{
+  width:350px;
+  margin: auto;
+}
+
+.about {
+  color:#fff;
+  width:70%;
+  margin: auto;
+  line-height:1.5;
+  text-align:center;
+  font-family:'Rubik', sans-serif, helvetica, arial;
+}
+
+.icon {
+  width:100px;
+  display: block;
+}
+.copyright {
+  margin: 15px 0;
+  padding: 10px 0;
+  display: block;
+}
+.main-footer{
+  text-align:center;
+  color:#fff;
+  font-size:;
+  font-family: 'Rubik', sans-serif, helvetica, arial;
+}
+.form {
+  font:95% 'Rubik', sans-serif, helvetica, arial;
+  width:75%;
+  margin: auto;
+  padding: 5% 15%;
+  color: #fff;
+}
+#name,
+#mail,
+#subject,
+#msg {
+  box-sizing: border-box;
+  outline:none;
+  width:100%;
+  background: #fff;
+  margin-bottom:4%;
+  border: 1px solid #ccc;
+  padding:3%;
+  color:#555;
+  font:95% 'Rubik', sans-serif, helvetica, arial;
+}
+
+#name:focus,
+#mail:focus,
+#subject:focus,
+#msg:focus {
+  box-sizing:border-box;
+  box-shadow: 0 0 5px #43D1AF;
+  padding:3%;
+  border: 2px solid #F7CBCC;
+  background: #F7CBCC;
+  
+}
+button {
+  width:100%;
+  padding:3%;
+  background: #F7CBCC;
+  border-bottom: 2px solid #b9e9f7;
+  border-top-style: none;
+  border-right-style:none;
+  border-left-style: none;
+  color:#000;
+  text-transform:uppercase;
+  font-size: 95%;
+  border-radius: 15px;
+}
+
+
+
+/*****************************
+Media Quieries
+*****************************/
+@media (min-width: 1025px){
+
+  .container {
+    width:100%;
+  }
+
+  .main-header {
+    color: #fff;
+    font-size: 2em;
+  }
+
+  .main-nav{
+    font-size:.85em;
+  }
+
+  .icon {
+    width:100px;
+    margin-right:25px;
+  }
+
+  .copyright {
+   margin-left:25px;
+  }
+
+  .about {
+    font-size: 1.5em;
+    width: 60%;
+    padding: 50px 0; 
+  }
+
+.form {
+  font:95% 'Rubik', sans-serif, helvetica, arial;
+  width:75%;
+  color: #fff;
+  }
+}
